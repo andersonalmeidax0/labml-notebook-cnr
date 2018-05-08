@@ -14,8 +14,9 @@ RUN sudo apt-get install -y npm
 RUN node -v
 RUN npm -v
 #######node 4.x #######npm 3.5.2
-RUN sudo apt-get install -y ipython 
-RUN sudo apt-get install -y ipython-notebook
+#ipythoin normal nao funcionou
+RUN sudo apt-get install -y ipython3 
+RUN sudo apt-get install -y ipython-notebook3
 RUN sudo npm install -g ijavascript
 RUN sudo ijsinstall --working-dir=/data
 VOLUME /data
