@@ -16,4 +16,4 @@ RUN ijsinstall
 VOLUME /data
 WORKDIR /data
 EXPOSE 8888
-CMD ijsnotebook --ijs-working-dir=/data --ip=* --allow-root
+CMD ijsnotebook --ijs-working-dir=/data --ip=* --allow-root --NotebookApp.token='anderson1234'
